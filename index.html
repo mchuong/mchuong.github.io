@@ -139,10 +139,10 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 				<br>If you think we are a good fit, send me an email and I'll respond as soon as I can. 
 				<br>Thanks!
 			</p>
-			<form action="mailto:m.chuong93@gmail.com">
-			<input type="text" class="textbox" value="Name:" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Name';}">
-			<input type="text" class="textbox" value="Email:" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Email';}">
-			<textarea value="Message:" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Message';}">Message</textarea>
+			<form action="contact.php" method="post">
+			<input type="text" class="textbox" value="Name:" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Name';}" name="cf_name">
+			<input type="text" class="textbox" value="Email:" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Email';}" name="cf_email">
+			<textarea value="Message:" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Message';}" name="cf_message">Message</textarea>
 			<input type="submit" value="Send">
 			</form>
 		</div>
